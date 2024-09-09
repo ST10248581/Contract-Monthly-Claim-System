@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\troyk\source\repos\CMCS
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/troyk/source/repos/CMCS/Views/ClaimApproval/ProcessClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1BcHByb3ZhbFxQcm9jZXNzQ2xhaW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/troyk/source/repos/CMCS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/troyk/source/repos/CMCS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/LecturerClaim/SubmitClaimSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJDbGFpbVxTdWJtaXRDbGFpbVN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/LecturerClaim/SubmitLecturerClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJDbGFpbVxTdWJtaXRMZWN0dXJlckNsYWltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/LecturerClaim/TrackClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJDbGFpbVxUcmFja0NsYWltLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/troyk/source/repos/CMCS/Views/Shared/Error.cshtml]

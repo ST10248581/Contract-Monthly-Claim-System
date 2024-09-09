@@ -2,7 +2,38 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center container">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="display-4">Welcome</h1>
+            <h2>To the Contract Monthly Claim System</h2>
+        </div>
+    </div>
+    <img src="Images/pexels-fauxels-3184328.jpg" alt="Image Not Found" width=900" height="600" style="margin:1em;">
+  <div class="card">
+        <div class="card-body">
+            <h3>Lecturers</h3>
+            <div class="mt-4">
+                <a href="@Url.Action("Index", "LecturerClaim")" class="btn btn-secondary bg-success">
+                    Submit Claims
+                </a>
+                <a href="@Url.Action("TrackClaims", "LecturerClaim")" class="btn btn-secondary ml-3">
+                    Track Claims
+                </a>
+            </div>
+        </div>
+  </div>
+    <img src="Images/pexels-pixabay-416405.jpg" alt="Image Not Found" width="900" height="600" style="margin:1em;">
+   <div class="card">
+       <div class="card-body">
+            <h3>Programme Coordinators or Academic Managers</h3>
+            <div class="mt-4">
+                <a href="@Url.Action("Index", "LecturerClaim")" class="btn btn-secondary bg-success">
+                    Process Claims
+                </a>
+            </div>
+       </div>
+   </div>
+ 
+    
 </div>

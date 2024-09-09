@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Track Claims";
+    // Test data
+    var claims = new List<dynamic>
+    {
+        new { LecturerId = "L12345", HoursWorked = 8, DateWorked = new DateTime(2024, 9, 1), Status = "Approved" },
+        new { LecturerId = "L12345", HoursWorked = 5, DateWorked = new DateTime(2024, 8, 25), Status = "Pending" },
+        new { LecturerId = "L12345", HoursWorked = 6, DateWorked = new DateTime(2024, 8, 20), Status = "Declined" }
+    };
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Track Submitted Claims</h2>
+
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Date Worked</th>
+                <th>Hours Worked</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in claims)
+            {
+                <tr>
+                    <td>@claim.DateWorked.ToString("MMMM dd, yyyy")</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>
+                        @claim.Status 
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

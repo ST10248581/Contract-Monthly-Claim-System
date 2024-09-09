@@ -1,0 +1,50 @@
+﻿@model LecturerClaimRequest
+
+@{
+    ViewBag.Title = "Submit Claim";
+}
+
+<h2>Submit Claim for Hours Worked</h2>
+
+<form asp-action="Index" asp-controller="LecturerClaim" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label asp-for="LecturerId">Lecturer ID</label>
+        <input asp-for="LecturerId" class="form-control" placeholder="Enter your Lecturer ID" />
+        <span asp-validation-for="LecturerId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="HoursWorked">Hours Worked</label>
+        <input asp-for="HoursWorked" class="form-control" placeholder="Enter hours worked" />
+        <span asp-validation-for="HoursWorked" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="DateWorked">Date Worked</label>
+        <input asp-for="DateWorked" class="form-control" type="date" />
+        <span asp-validation-for="DateWorked" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="SupportingDocuments">Supporting Documents</label>
+        <input type="file" id="fileUpload" name="SupportingDocuments" class="form-control" multiple />
+        <span asp-validation-for="SupportingDocuments" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Selected Documents</label>
+        <div class="form-control" id="selectedFiles"></div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Claim</button>
+</form>
+
+<script>
+    document.getElementById('fileUpload').addEventListener('change', function(event) {
+        var files = event.target.files;
+        var output = document.getElementById('selectedFiles');
+        for (var i = 0; i < files.length; i++) {
+            var fileItem = document.createElement('p');
+            fileItem.textContent = files[i].name;
+            output.appendChild(fileItem);
+        }
+    });
+</script>
