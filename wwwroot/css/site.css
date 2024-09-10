@@ -18,12 +18,25 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #E8F5E9;
+}
+
+header {
+    background-color: #388E3C;
+}
+
+footer {
+    background-color: #388E3C;
+}
+
+.card {
+    background-color: #FAFAFA;
 }
 
 /* General Form Styling */
 form {
-    background-color: #f9f9f9;
+    background-color: #FAFAFA;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
