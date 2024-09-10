@@ -1,13 +1,17 @@
 ﻿@{
     ViewBag.Title = "Approve or Reject Claims";
-    // Test data
     var claims = new List<dynamic>
     {
-        new { ClaimId = 1, LecturerId = "L12345", HoursWorked = 8, DateWorked = new DateTime(2024, 9, 1), Status = "Pending" },
-        new { ClaimId = 2, LecturerId = "L67890", HoursWorked = 5, DateWorked = new DateTime(2024, 8, 25), Status = "Pending" },
-        new { ClaimId = 3, LecturerId = "L24680", HoursWorked = 6, DateWorked = new DateTime(2024, 8, 20), Status = "Pending" }
+        new { ClaimId = 1, LecturerId = "L12345", HoursWorked = 8, DateWorked = new DateTime(2024, 9, 1), Status = "Pending", SupportingDocumentLink = "" },
+        new { ClaimId = 2, LecturerId = "L67890", HoursWorked = 5, DateWorked = new DateTime(2024, 8, 25), Status = "Pending", SupportingDocumentLink = "" },
+        new { ClaimId = 3, LecturerId = "L24680", HoursWorked = 6, DateWorked = new DateTime(2024, 8, 20), Status = "Pending", SupportingDocumentLink = "" },
+        new { ClaimId = 4, LecturerId = "L13579", HoursWorked = 7, DateWorked = new DateTime(2024, 8, 15), Status = "Pending", SupportingDocumentLink = "" },
+        new { ClaimId = 5, LecturerId = "L97531", HoursWorked = 4, DateWorked = new DateTime(2024, 8, 10), Status = "Pending", SupportingDocumentLink = "" },
+        new { ClaimId = 6, LecturerId = "L86420", HoursWorked = 10, DateWorked = new DateTime(2024, 9, 5), Status = "Pending", SupportingDocumentLink = "" },
+        new { ClaimId = 7, LecturerId = "L54321", HoursWorked = 9, DateWorked = new DateTime(2024, 9, 2), Status = "Pending", SupportingDocumentLink = "" }
     };
 }
+
 
 <div class="container mt-5">
     <h2 class="mb-4">Approve or Reject Claims</h2>
@@ -18,6 +22,7 @@
                 <th>Lecturer ID</th>
                 <th>Date Worked</th>
                 <th>Hours Worked</th>
+                <th>Supporting Document</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -28,6 +33,9 @@
                     <td>@claim.LecturerId</td>
                     <td>@claim.DateWorked.ToString("MMMM dd, yyyy")</td>
                     <td>@claim.HoursWorked</td>
+                    <td>
+                        <a href="@claim.SupportingDocumentLink" target="_blank" class="btn btn-info btn-sm">Download</a>
+                    </td>
                     <td>
                         <button class="btn btn-success btn-sm" onclick="processClaim('@claim.ClaimId', 'approve')">Approve</button>
                         <button class="btn btn-danger btn-sm" onclick="processClaim('@claim.ClaimId', 'reject')">Reject</button>
@@ -42,9 +50,10 @@
     <script>
         function processClaim(claimId, action) {
             if (confirm('Are you sure you want to ' + action + ' this claim?')) {
-                
+                // Remove the claim row
                 document.getElementById('claim-' + claimId).remove();
 
+                // Alert success message
                 alert('Claim has been ' + (action === 'approve' ? 'approved' : 'rejected') + ' successfully.');
             }
         }
