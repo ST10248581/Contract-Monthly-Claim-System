@@ -13,8 +13,7 @@ namespace CMCS.Models
 		public int HoursWorked { get; set; }
 
 		[Required]
-		[DataType(DataType.Date)]
-		public DateTime DateWorked { get; set; }
+		public decimal HourlyRate { get; set; }
 
 		[Required]
 		public IEnumerable<IFormFile> SupportingDocuments { get; set; }

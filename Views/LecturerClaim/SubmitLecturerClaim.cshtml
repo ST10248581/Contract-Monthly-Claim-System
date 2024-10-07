@@ -6,25 +6,19 @@
 
 <h2>Submit Claim for Hours Worked</h2>
 
+<!-- Reference: https://www.w3schools.com/html/html_forms.asp -->
 <form asp-action="Index" asp-controller="LecturerClaim" enctype="multipart/form-data" method="post" >
-    <div class="form-group">
-        <label asp-for="LecturerId">Lecturer ID</label>
-        <input asp-for="LecturerId" class="form-control" placeholder="Enter your Lecturer ID" />
-        <span asp-validation-for="LecturerId" class="text-danger"></span>
-    </div>
 
     <div class="form-group">
         <label for="HoursWorked">Hours Worked</label>
         <input asp-for="HoursWorked" class="form-control" placeholder="Enter hours worked" />
         <span asp-validation-for="HoursWorked" class="text-danger"></span>
     </div>
-
     <div class="form-group">
-        <label for="DateWorked">Date Worked</label>
-        <input asp-for="DateWorked" class="form-control" type="date" />
-        <span asp-validation-for="DateWorked" class="text-danger"></span>
+        <label for="HourlyRate">Hourly Rate</label>
+        <input asp-for="HourlyRate" class="form-control" placeholder="Enter hourly Rate" />
+        <span asp-validation-for="HoursWorked" class="text-danger"></span>
     </div>
-
     <div class="form-group">
         <label for="SupportingDocuments">Supporting Documents</label>
         <input type="file" id="fileUpload" name="SupportingDocuments" class="form-control" multiple />
