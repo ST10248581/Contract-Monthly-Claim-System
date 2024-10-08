@@ -6,7 +6,7 @@ namespace CMCS.Models
 	public class LecturerClaimRequest
 	{
 		[Required]
-		public string LecturerId { get; set; }
+		public Guid LecturerId { get; set; }
 
 		[Required]
 		[Range(1, int.MaxValue, ErrorMessage = "Please enter a valid number of hours.")]

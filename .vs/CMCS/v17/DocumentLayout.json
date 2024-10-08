@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\troyk\\source\\repos\\CMCS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\lecturerclaim\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\lecturerclaim\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\claimapproval\\processclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\claimapproval\\processclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\lecturerclaim\\submitlecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\lecturerclaim\\submitlecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\lecturerclaim\\submitclaimsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\lecturerclaim\\submitclaimsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrackClaim.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\TrackClaim.cshtml",
-              "RelativeDocumentMoniker": "Views\\LecturerClaim\\TrackClaim.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\TrackClaim.cshtml",
-              "RelativeToolTip": "Views\\LecturerClaim\\TrackClaim.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T10:13:52.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubmitLecturerClaim.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "RelativeDocumentMoniker": "Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "RelativeToolTip": "Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T10:12:54.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SubmitClaimSuccess.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\SubmitClaimSuccess.cshtml",
-              "RelativeDocumentMoniker": "Views\\LecturerClaim\\SubmitClaimSuccess.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\SubmitClaimSuccess.cshtml",
-              "RelativeToolTip": "Views\\LecturerClaim\\SubmitClaimSuccess.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T10:12:52.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T10:12:50.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProcessClaims.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "RelativeDocumentMoniker": "Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "RelativeToolTip": "Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T10:12:47.864Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -1,19 +1,7 @@
-﻿@{
+﻿@model ClaimListResultModel
+
+@{
     ViewBag.Title = "Track Claims";
-    
-    var claims = new List<dynamic>
-{
-    new { LecturerId = "L12345", HoursWorked = 8, DateWorked = new DateTime(2024, 9, 1), Status = "Approved" },
-    new { LecturerId = "L12345", HoursWorked = 5, DateWorked = new DateTime(2024, 8, 25), Status = "Pending" },
-    new { LecturerId = "L12345", HoursWorked = 6, DateWorked = new DateTime(2024, 8, 20), Status = "Declined" },
-    new { LecturerId = "L54321", HoursWorked = 7, DateWorked = new DateTime(2024, 9, 3), Status = "Approved" },
-    new { LecturerId = "L54321", HoursWorked = 3, DateWorked = new DateTime(2024, 8, 30), Status = "Pending" },
-    new { LecturerId = "L98765", HoursWorked = 9, DateWorked = new DateTime(2024, 9, 2), Status = "Approved" },
-    new { LecturerId = "L98765", HoursWorked = 4, DateWorked = new DateTime(2024, 8, 28), Status = "Declined" },
-    new { LecturerId = "L13579", HoursWorked = 5, DateWorked = new DateTime(2024, 9, 1), Status = "Approved" },
-    new { LecturerId = "L24680", HoursWorked = 6, DateWorked = new DateTime(2024, 8, 27), Status = "Pending" },
-    new { LecturerId = "L13579", HoursWorked = 7, DateWorked = new DateTime(2024, 8, 29), Status = "Approved" }
-};
 }
 
 <div class="container mt-5">
@@ -23,16 +11,14 @@
     <table class="table table-bordered">
         <thead class="thead-light">
             <tr>
-                <th>Date Worked</th>
                 <th>Hours Worked</th>
                 <th>Status</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var claim in claims)
+            @foreach (var claim in Model.LecturerClaims)
             {
                 <tr>
-                    <td>@claim.DateWorked.ToString("MMMM dd, yyyy")</td>
                     <td>@claim.HoursWorked</td>
                     <td>
                         @claim.Status 
