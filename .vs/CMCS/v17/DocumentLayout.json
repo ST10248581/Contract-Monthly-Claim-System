@@ -1,12 +1,194 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\troyk\\source\\repos\\CMCS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\controllers\\lecturerclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:controllers\\lecturerclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\lecturerclaim\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\lecturerclaim\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\models\\lecturerclaimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:models\\lecturerclaimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\data\\claimmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:data\\claimmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\logic\\lecturerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:logic\\lecturerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\controllers\\claimapprovalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:controllers\\claimapprovalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:21:53.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:19:49.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LecturerClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\LecturerClaimController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LecturerClaimController.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\LecturerClaimController.cs",
+              "RelativeToolTip": "Controllers\\LecturerClaimController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:08:09.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T12:19:13.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LecturerClaimRequest.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\LecturerClaimRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LecturerClaimRequest.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\LecturerClaimRequest.cs",
+              "RelativeToolTip": "Models\\LecturerClaimRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:16:16.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrackClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\TrackClaim.cshtml",
+              "RelativeDocumentMoniker": "Views\\LecturerClaim\\TrackClaim.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\TrackClaim.cshtml",
+              "RelativeToolTip": "Views\\LecturerClaim\\TrackClaim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T12:09:55.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LecturerLogic.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Logic\\LecturerLogic.cs",
+              "RelativeDocumentMoniker": "Logic\\LecturerLogic.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Logic\\LecturerLogic.cs",
+              "RelativeToolTip": "Logic\\LecturerLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:09:29.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClaimApprovalController.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\ClaimApprovalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClaimApprovalController.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\ClaimApprovalController.cs",
+              "RelativeToolTip": "Controllers\\ClaimApprovalController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:08:08.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b9a343e4-8ba9-4d44-b018-5944ce01ec2c",
+        "Display": 1,
+        "X": 169,
+        "Y": 147,
+        "Width": 1367,
+        "Height": 890,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClaimManager.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Data\\ClaimManager.cs",
+              "RelativeDocumentMoniker": "Data\\ClaimManager.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Data\\ClaimManager.cs",
+              "RelativeToolTip": "Data\\ClaimManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:11:11.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

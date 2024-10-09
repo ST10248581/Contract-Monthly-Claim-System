@@ -4,7 +4,7 @@ namespace CMCS.Data
 {
     public class ClaimManager
     {
-        public static List<Claim> GetClaims= new List<Claim>();
+        public static List<Claim> Claims = new List<Claim>();
     }
 
     public class Claim

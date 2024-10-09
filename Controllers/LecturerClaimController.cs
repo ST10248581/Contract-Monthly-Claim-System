@@ -1,10 +1,19 @@
-﻿using CMCS.Models;
+﻿using CMCS.Data;
+using CMCS.Logic;
+using CMCS.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CMCS.Controllers
 {
 	public class LecturerClaimController : Controller
 	{
+        private LecturerLogic _lecturerLogic;
+
+        public LecturerClaimController()
+        {
+            _lecturerLogic = new LecturerLogic();
+        }
+
         [HttpGet]
 		public IActionResult Index()
 		{
@@ -14,12 +23,40 @@ namespace CMCS.Controllers
         [HttpPost]
         public IActionResult Index(LecturerClaimRequest request)
         {
-            return View("SubmitClaimSuccess");
+            try
+            {
+                Claim claim = new Claim()
+                {
+                    LecturerId = Guid.NewGuid(),
+                    HourlyRate = request.HourlyRate,
+                    HoursWorked = request.HoursWorked,
+                    SupportingDocuments = request.SupportingDocuments
+                };
+
+                _lecturerLogic.SubmitLecturerClaim(claim);
+                return View("SubmitClaimSuccess");
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = ex.Message;
+                return RedirectToAction("Error", "Home");
+            }
         }
 
         public IActionResult TrackClaims()
         {
-            return View("TrackClaim");
+            try
+            {                
+                var claims = _lecturerLogic.GetLecturerClaims();
+
+                return View("TrackClaim", claims);
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = ex.Message;
+                return RedirectToAction("Error", "Home");
+            }
+           
         }
     } 
     
