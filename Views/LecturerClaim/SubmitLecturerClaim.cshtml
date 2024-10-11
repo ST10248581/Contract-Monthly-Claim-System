@@ -20,13 +20,13 @@
         <span asp-validation-for="HoursWorked" class="text-danger"></span>
     </div>
     <div class="form-group">
+        <label>Selected Documents</label>
+        <div class="form-control" id="selectedFiles"></div>
+    </div>
+    <div class="form-group">
         <label for="SupportingDocuments">Supporting Documents</label>
         <input type="file" id="fileUpload" name="SupportingDocuments" class="form-control" multiple />
         <span asp-validation-for="SupportingDocuments" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label>Selected Documents</label>
-        <div class="form-control" id="selectedFiles"></div>
     </div>
     <button type="submit" class="btn btn-primary">Submit Claim</button>
 </form>

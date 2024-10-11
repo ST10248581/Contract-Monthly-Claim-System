@@ -10,12 +10,11 @@ namespace CMCS.Logic
             return new ClaimListResultModel()
             {
                 LecturerClaims = (from c in ClaimManager.Claims
-                                  select new Claim
+                                  select new ClaimResult
                                   {
-                                      LecturerId = c.LecturerId,
                                       HourlyRate = c.HourlyRate,
                                       HoursWorked = c.HoursWorked,
-                                      SupportingDocuments = c.SupportingDocuments,
+                                      ExpectedPayout = c.HoursWorked * c.HourlyRate,
                                       Status = c.Status
                                   }).ToList()
             };
