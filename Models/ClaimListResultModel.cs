@@ -9,6 +9,7 @@ namespace CMCS.Models
 
     public class ClaimResult
     {
+        public Guid ClaimId { get; set; }
 		public Guid LecturerId { get; set; }
 		public int HoursWorked { get; set; }
 

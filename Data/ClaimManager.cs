@@ -9,13 +9,14 @@ namespace CMCS.Data
 
     public class Claim
     {
+        public Guid ClaimId { get; set; }
         public Guid LecturerId { get; set; }
 
         public int HoursWorked { get; set; }
 
         public decimal HourlyRate { get; set; }
 
-        public IEnumerable<IFormFile> SupportingDocuments { get; set; }
+        public List<IFormFile> SupportingDocuments { get; set; }
         public string Status { get; set; } = "Pending";
     }
 

@@ -25,13 +25,25 @@ namespace CMCS.Controllers
         {
             try
             {
+                var files = Request.Form.Files;
+
                 Claim claim = new Claim()
                 {
+                    ClaimId = Guid.NewGuid(),
                     LecturerId = Guid.NewGuid(),
                     HourlyRate = request.HourlyRate,
                     HoursWorked = request.HoursWorked,
-                    SupportingDocuments = request.SupportingDocuments
+                    SupportingDocuments = new List<IFormFile>()
                 };
+
+                if(request.SupportingDocuments != null)
+                {
+                    foreach (var file in request.SupportingDocuments)
+                    {
+                        claim.SupportingDocuments.Add(file);
+                    }
+                }
+               
 
                 _lecturerLogic.SubmitLecturerClaim(claim);
                 return View("SubmitClaimSuccess");
@@ -58,6 +70,7 @@ namespace CMCS.Controllers
             }
            
         }
+      
     } 
     
 }

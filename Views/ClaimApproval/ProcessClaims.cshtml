@@ -18,15 +18,12 @@
         <tbody>
             @foreach (var claim in Model.LecturerClaims)
             {
-                <tr id="claim-@claim.LecturerId">
+                <tr id="claim-@claim.ClaimId">
                     <td>@claim.LecturerId</td>
                     <td>@claim.HoursWorked</td>
                     <td>
-                        <a href="@claim.SupportingDocuments" target="_blank" class="btn btn-info btn-sm">Download</a>
-                    </td>
-                    <td>
-                        <button class="btn btn-success btn-sm" onclick="processClaim('@claim.LecturerId', 'approve')">Approve</button>
-                        <button class="btn btn-danger btn-sm" onclick="processClaim('@claim.LecturerId', 'reject')">Reject</button>
+                        <button class="btn btn-success btn-sm" onclick="processClaim('@claim.ClaimId', 'approve')">Approve</button>
+                        <button class="btn btn-danger btn-sm" onclick="processClaim('@claim.ClaimId', 'reject')">Reject</button>
                     </td>
                 </tr>
             }
@@ -34,12 +31,45 @@
     </table>
 </div>
 @section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         function processClaim(claimId, action) {
             if (confirm('Are you sure you want to ' + action + ' this claim?')) {
-                document.getElementById('claim-' + claimId).remove();
-                alert('Claim has been ' + (action === 'approve' ? 'approved' : 'rejected') + ' successfully.');
+                $.ajax({
+                    url: '@Url.Action("ProcessClaim", "ClaimApproval")', 
+                    type: 'POST',
+                    data: {
+                        claimId: claimId,
+                        action: action
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            document.getElementById('claim-' + claimId).remove();
+                            alert('Claim has been ' + (action === 'approve' ? 'approved' : 'rejected') + ' successfully.');                           
+                        } else {
+                            alert('Failed to ' + action + ' the claim. Please try again.');
+                        }
+                    },
+                    error: function () {
+                        alert('An error occurred while processing the claim. Please try again.');
+                    }
+                });
             }
+        }
+        function downloadSupportingDocuments(claimId) {
+            // Create a form and submit it to trigger the download
+            var form = $('<form>', {
+                action: '@Url.Action("GetDocuments", "ClaimApproval")',
+                method: 'POST'
+            }).append($('<input>', {
+                type: 'hidden',
+                name: 'claimId',
+                value: claimId
+            }));
+
+            $('body').append(form);
+            form.submit();
+            form.remove(); // Remove the form after submission
         }
     </script>
 }

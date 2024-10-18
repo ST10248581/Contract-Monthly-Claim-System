@@ -13,7 +13,6 @@ namespace CMCS.Models
 		[Required]
 		public decimal HourlyRate { get; set; }
 
-		[Required]
-		public IEnumerable<IFormFile> SupportingDocuments { get; set; }
+		public List<IFormFile> SupportingDocuments { get; set; }
 	}
 }
