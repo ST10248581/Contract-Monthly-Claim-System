@@ -1,28 +1,56 @@
-﻿using CMCS.Data;
+﻿
 using CMCS.Models;
+using CMCS.Repository;
 
 namespace CMCS.Logic
 {
     public class LecturerLogic
     {
-        public ClaimListResultModel GetLecturerClaims()
+        public ClaimListResultModel GetLecturerClaims(int lecturerId)
         {
-            return new ClaimListResultModel()
+            using (var dm = new DataModel())
             {
-                LecturerClaims = (from c in ClaimManager.Claims
-                                  select new ClaimResult
-                                  {
-                                      HourlyRate = c.HourlyRate,
-                                      HoursWorked = c.HoursWorked,
-                                      ExpectedPayout = c.HoursWorked * c.HourlyRate,
-                                      Status = c.Status
-                                  }).ToList()
-            };
+                return new ClaimListResultModel()
+                {
+                    
+                    LecturerClaims = (from c in dm.Claims
+                                      where c.LecturerId == lecturerId
+                                      select new ClaimResult
+                                      {
+                                          ClaimId = c.ClaimId,
+                                          LecturerId = c.LecturerId,
+                                          HourlyRate = c.HourlyRate,
+                                          HoursWorked = c.HoursWorked,
+                                          ExpectedPayout = c.HoursWorked * c.HourlyRate,
+                                          Status = c.Status
+                                      }).ToList()
+                    
+                };
+            }
+           
         }
 
         public void SubmitLecturerClaim(Claim claim)
         {
-            ClaimManager.Claims.Add(claim);
+            using (var dm = new DataModel())
+            {
+                dm.Claims.Add(claim);
+                dm.SaveChanges();
+            }
+        }
+
+        public void AddDocumentToClaim(byte[] document, int claimId)
+        {
+            using (var dm = new DataModel())
+            {
+                dm.ClaimSupportingDocuments.Add(new ClaimSupportingDocument()
+                {
+                    ClaimId = claimId,
+                    SupportingDocument = document
+                });
+
+                dm.SaveChanges();
+            }
         }
 
     }

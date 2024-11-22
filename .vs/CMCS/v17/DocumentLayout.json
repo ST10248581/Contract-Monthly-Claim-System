@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\troyk\\source\\repos\\CMCS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\claimapproval\\processclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\claimapproval\\processclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\hr\\updatelecturerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\hr\\updatelecturerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\controllers\\claimapprovalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:controllers\\claimapprovalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\logic\\lecturerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:logic\\lecturerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\lecturerclaim\\submitlecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\lecturerclaim\\submitlecturerclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\models\\lecturerclaimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:models\\lecturerclaimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\controllers\\lecturerclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:controllers\\lecturerclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\data\\claimmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:data\\claimmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\models\\claimlistresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:models\\claimlistresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|c:\\users\\troyk\\source\\repos\\cmcs\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34373FC7-3C44-42C8-9268-15A3DDCDD5AC}|CMCS.csproj|solutionrelative:views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,105 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LecturerClaimController.cs",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\LecturerClaimController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LecturerClaimController.cs",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\LecturerClaimController.cs",
-              "RelativeToolTip": "Controllers\\LecturerClaimController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwEgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:36:31.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClaimManager.cs",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Data\\ClaimManager.cs",
-              "RelativeDocumentMoniker": "Data\\ClaimManager.cs",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Data\\ClaimManager.cs",
-              "RelativeToolTip": "Data\\ClaimManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:36:24.921Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProcessClaims.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "RelativeDocumentMoniker": "Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "RelativeToolTip": "Views\\ClaimApproval\\ProcessClaims.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwB4AAAAMAAAA",
+              "Title": "UpdateLecturerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\HR\\UpdateLecturerDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\HR\\UpdateLecturerDetails.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\HR\\UpdateLecturerDetails.cshtml",
+              "RelativeToolTip": "Views\\HR\\UpdateLecturerDetails.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwCAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T09:55:25.883Z",
+              "WhenOpened": "2024-11-22T17:17:12.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAiwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-15T11:29:06.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClaimListResultModel.cs",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\ClaimListResultModel.cs",
-              "RelativeDocumentMoniker": "Models\\ClaimListResultModel.cs",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\ClaimListResultModel.cs",
-              "RelativeToolTip": "Models\\ClaimListResultModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:31:08.72Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClaimApprovalController.cs",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\ClaimApprovalController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClaimApprovalController.cs",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Controllers\\ClaimApprovalController.cs",
-              "RelativeToolTip": "Controllers\\ClaimApprovalController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD8AAAAJAAAA",
+              "Title": "LecturerLogic.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Logic\\LecturerLogic.cs",
+              "RelativeDocumentMoniker": "Logic\\LecturerLogic.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Logic\\LecturerLogic.cs",
+              "RelativeToolTip": "Logic\\LecturerLogic.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA0wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T09:55:05.848Z",
+              "WhenOpened": "2024-11-22T17:13:16.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SubmitLecturerClaim.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "RelativeDocumentMoniker": "Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "RelativeToolTip": "Views\\LecturerClaim\\SubmitLecturerClaim.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwBkAAAAcAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authentication\\Login.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Views\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "Views\\Authentication\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T11:37:40.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LecturerClaimRequest.cs",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\LecturerClaimRequest.cs",
-              "RelativeDocumentMoniker": "Models\\LecturerClaimRequest.cs",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\CMCS\\Models\\LecturerClaimRequest.cs",
-              "RelativeToolTip": "Models\\LecturerClaimRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:45:06.05Z"
+              "WhenOpened": "2024-11-22T17:11:20.703Z",
+              "EditorCaption": ""
             }
           ]
         },

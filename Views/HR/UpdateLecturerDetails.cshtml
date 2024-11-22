@@ -1,0 +1,34 @@
+﻿@model LecturerDetailsRequest
+
+@*  *@
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.0/jquery.validate.unobtrusive.min.js"></script>
+
+
+@{
+	ViewBag.Title = "Update Lecturer Details";
+}
+
+<h2>Update Lecturer Details</h2>
+
+<form asp-action="UpdateLecturerDetails" asp-controller="HR" enctype="multipart/form-data" method="post">
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<div class="form-group">
+			<label for="FirstName">First Name</label>
+			<input asp-for="FirstName" class="form-control" placeholder="Enter first name" />
+			<span asp-validation-for="FirstName" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label for="LastName">Last Name</label>
+			<input asp-for="LastName" class="form-control" placeholder="Enter last name" />
+			<span asp-validation-for="LastName" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label for="Email">Email</label>
+			<input asp-for="Email" class="form-control" placeholder="Enter email address" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+	
+	<button type="submit" class="btn btn-primary">Update</button>
+</form>

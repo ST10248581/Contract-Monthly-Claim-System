@@ -11,7 +11,7 @@
             <tr>
                 <th>Lecturer ID</th>
                 <th>Hours Worked</th>
-                <th>Supporting Document</th>
+                <th>Current Status</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -21,6 +21,7 @@
                 <tr id="claim-@claim.ClaimId">
                     <td>@claim.LecturerId</td>
                     <td>@claim.HoursWorked</td>
+                    <td>@claim.Status</td>
                     <td>
                         <button class="btn btn-success btn-sm" onclick="processClaim('@claim.ClaimId', 'approve')">Approve</button>
                         <button class="btn btn-danger btn-sm" onclick="processClaim('@claim.ClaimId', 'reject')">Reject</button>

@@ -1,0 +1,51 @@
+﻿@model InvoiceList
+
+@{
+    ViewBag.Title = "Auto-Generate Invoices";
+}
+
+<div>
+    @foreach (var inv in Model.Invoices)
+    {
+        <div class="container mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <h2>@inv.Title</h2>
+                    <hr />
+                    <h4>Lecturer Details</h4>
+                    <p class="card-text"><span class="bold-text">Lecturer ID:</span> @inv.LecturerId</p>
+                    <p class="card-text"><span class="bold-text">Lecturer Full Name:</span> @inv.LecturerFullName</p>
+                    <p class="card-text"><span class="bold-text">Lecturer Email:</span> @inv.LecturerEmail</p>
+                    <hr />
+                    <h4>Approver Details</h4>
+                    <p class="card-text"><span class="bold-text">Approver Full Name:</span> @inv.ApproverName</p>
+                    <p class="card-text"><span class="bold-text">Approver Email:</span> @inv.ApproverEmail</p>
+                    <hr />
+                    <h4>Invoice Details</h4>
+                    <p class="card-text"><span class="bold-text">Hours Worked:</span> @inv.HoursWorked HRS</p>
+                    <p class="card-text"><span class="bold-text">Hourly Rate:</span> R @inv.HourlyRate</p>
+                    <hr />
+                    <p class="card-text"><span class="bold-text">Total Invoice Amount:</span> R @inv.TotalInvoiceAmount</p>
+                    <hr />
+                </div>
+                <div class="card-footer text-muted">
+                    Invoice Generated on @DateTime.Now.ToString("MMMM dd, yyyy")
+                </div>
+            </div>
+        </div>
+    }
+    @if (Model.Invoices.Count <= 0)
+    {
+        <div class="container mt-5">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h1>No Invoices To Display</h1>
+                    <p>No approved claims to be invoiced.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    Generated on @DateTime.Now.ToString("MMMM dd, yyyy")
+                </div>
+            </div>
+        </div>
+    }
+</div>

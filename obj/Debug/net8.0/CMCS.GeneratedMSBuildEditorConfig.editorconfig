@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CMCS
 build_property.RootNamespace = CMCS
@@ -18,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\troyk\source\repos\CMCS
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/troyk/source/repos/CMCS/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/Authentication/LoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW5TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/troyk/source/repos/CMCS/Views/ClaimApproval/ProcessClaims.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1BcHByb3ZhbFxQcm9jZXNzQ2xhaW1zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,6 +44,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/troyk/source/repos/CMCS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/HR/AutoGenerateInvoices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcQXV0b0dlbmVyYXRlSW52b2ljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/HR/GetAllLecturers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcR2V0QWxsTGVjdHVyZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/HR/UpdateLecturerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcVXBkYXRlTGVjdHVyZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/troyk/source/repos/CMCS/Views/LecturerClaim/SubmitClaimSuccess.cshtml]
@@ -48,6 +76,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/troyk/source/repos/CMCS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/UserManagement/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/troyk/source/repos/CMCS/Views/UserManagement/RegisterSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcUmVnaXN0ZXJTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/troyk/source/repos/CMCS/Views/_ViewImports.cshtml]

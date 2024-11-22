@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Register Success";
+}
+
+<div class="container mt-5">
+    <div class="card text-center">
+        <div class="card-body">
+            <h1>Thank You!</h1>
+            <h5 class="card-title">Registration Successful</h5>
+            <p class="card-text">You may kindly login to access logged in sections of the system.</p>
+
+            <div class="mt-4">
+                <a href="@Url.Action("Login", "Authentication")" class="btn btn-secondary bg-success">
+                    Login
+                </a>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            Submitted on @DateTime.Now.ToString("MMMM dd, yyyy")
+        </div>
+    </div>
+</div>
